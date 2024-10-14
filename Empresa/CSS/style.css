@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;                                            
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffffa4;    
+}
+
+/*---------------------------------------------------------HEADER----------------------------------------------------*/
+.container{
+    max-width: 1200px;
+    margin: 20px;
+}
+
+.header{
+    background-color: #ffb803de;
+    color: #fff;
+    background-image: url(/static/images/bannerg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: #926500;
+
+}
+
+.icons{
+    display: flex;
+}
+.icons i{
+    font-size: 25px;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.icons i:hover{
+    color: #926500;
+}
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt{
+    margin: 80px;
+    width: 40%;
+}
+
+.header-txt h1{
+    color: white;
+    font-size: 67px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-txt p{
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.btn-1{
+    padding: 13px 20px;
+    border-radius: 25px;
+    background-color: #926600e5;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+
+.btn-1:hover{
+    background-color: #fffffffa;
+    color: #926600f6;
+}
+
+.images{
+    margin-top: 150px;
+    margin-right: 100px;
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    right: 0;
+
+}
+
+.swiper{
+    width: 100%;
+    height: 150%;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide h3{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.rows{
+    color: #fff;
+    width: 180px;
+    position: absolute;
+    right: 620px;
+    bottom: 280px;
+}
+
+.swiper-button-prev{
+    margin-top: -100px;
+    margin-left: 80px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.swiper-button-next{
+    margin-top: -100px;
+    margin-right: -590px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.swiper-button-prev::after{
+    color: #fff;
+    font-size: 25px;
+}
+.swiper-button-next::after{
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/*---------------------------------------------------------TABLA PRODUCTOS----------------------------------------------------*/
+
+.container-grande {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    padding: 110px 0;
+}
+.container-grande p{
+    text-align: center;
+}
+
+.productos-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-grande h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.productos-table {
+    width: 100%;
+}
+
+.productos-table img {
+    max-width: 300px;
+    height: auto;
+}
+
+.productos-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-table td a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*---------------------------------------------------------TABLA SOBRE NOSOTROS----------------------------------------------------*/
+
+.containerdos {
+    width: 900px;
+    margin-left: 350px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.dos{
+    color: #333;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: #ffb703;
+}
+.containerdos h2{
+    font-size: 30px;
+    text-align: center;
+}
+.containerdos{
+    background-color: #ffffff;
+}
+.columna {
+    width: 50%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* Estilos adicionales para hacerlo más visual */
+.columna:nth-child(odd) {
+    background-color: none;
+}
+
+.columna:nth-child(even) {
+    background: none;
+}
+
+/* Clearfix para evitar colapso de contenedor */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*---------------------------------------------------------MAPA----------------------------------------------------*/
+
+.map-container{
+    margin-left: 1000px;
+    margin-top: -450px;
+    
+}
+.ultima{
+    margin-bottom: 200px;
+}
+
+/*---------------------------------------------------------video----------------------------------------------------*/
+.video{
+    padding-top: -10px;
+    padding-bottom: 20px;
+    background-color: #ffb703;
+}
+/*---------------------------------------------------------FORMULARIO----------------------------------------------------*/
+.container-form {
+    margin-top: 100px;
+    margin-left: 100px;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form h2 {
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #926500;
+}
+
+button {
+    background-color: #926500;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #926600e3;
+}
+
+/*---------------------------------------------------------FOOTER----------------------------------------------------*/
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #ffb703;;
+    padding: 20px 0;
+}
+footer p{
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-table {
+    width: 100%;
+}
+
+.contact-table img {
+    max-width: 150px;
+    height: auto;
+}
+
+.contact-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-table td a {
+    text-decoration: none;
+    color: #333;
+}

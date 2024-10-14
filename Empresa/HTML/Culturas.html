@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Media/logo_sin_fondo.png" type="png">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Cultura del Mundo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="../Media/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Cult.html">Culturas</a></li>
+                    <li><a href="Quienes.html">Acerca de nosotros</a></li>
+                    <li><a href="Contactos.html">Contactenos</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>CULTURA</h1>
+                <p>
+                    La cultura es el conjunto de conocimientos, creencias, costumbres, arte y valores que caracterizan a una sociedad.
+                </p>
+                <a href="#" class="btn-1">Más información</a>
+            </div>
+        </div>
+        <div class="images">
+            <div class="swiper myswiper">
+                <div class="swiper-wraper">
+                    <div class="swiper-slide">
+                        <img src="../Media/cultura.jpg" id="cuatro" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="rows">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="uno">
+            <div class="container-grande">
+                <h2>Cultura del Mundo</h2>
+                <div class="productos-container">
+                    <table class="productos-table">
+                        <tr>
+                            <td class="columnap"><img src="../Media/cultal 1.jpg" id="unota" alt="" srcset=""><br><p>La cultura del mundo es un mosaico diverso que abarca tradiciones, costumbres, lenguas, arte, religión y modos de vida de diferentes comunidades. 
+                            <td class="columnap"><img src="../Media/cultura 2.jpg" id="dosta" alt="" srcset=""> <br><p> <br>Cada región aporta su propio patrimonio, desde la música y la danza hasta la gastronomía y las festividades.
+                            <td class="columnap"><img src="../Media/cultura 3.avif" id="tresta" alt=""><br><br><p> La globalización ha facilitado el intercambio cultural, permitiendo que elementos de diversas culturas se fusionen y enriquezcan mutuamente. Sin embargo, también plantea desafíos, como la preservación de identidades culturales únicas frente a la homogeneización.  <br> </p></td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="dos">
+            <div class="containerdos">
+                <h2>Sobre la Cultura</h2>
+                <div class="container clearfix">
+                    <div class="columna">
+                        <h3>¿Porque es importante la cultura?</h3>
+                        <p>La cultura es el conjunto de conocimientos, creencias, costumbres, arte y valores que caracterizan a una sociedad.</p>
+                        .</p> 
+                        
+                    </div>
+                    <div class="columna">
+                        <h3>Celebrar la cultura en el mundo es esencial</h3>
+                        <p>Fomenta el respeto y la comprensión entre diversas comunidades, promoviendo la paz y la convivencia. Además, al poner en valor las tradiciones y expresiones culturales, contribuimos a la diversidad global, enriqueciendo nuestras vidas.  <br> <br><br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video"> 
+             <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <iframe width="100%" height="450px" class="border-0" 
+                        src="https://www.youtube.com/embed/tgbNyZ7vqY?controls=0">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ultima">
+            <div class="container-form">
+                <form class="contact-form">
+                    <h2>Mas información de cultura</h2>
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d491.35633449503257!2d-84.09279506310094!3d9.86289260089074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e2b048aedec7%3A0x6837c85fe47c79d4!2sParque%20de%20Aserr%C3%AD!5e0!3m2!1ses-419!2scr!4v1718251637188!5m2!1ses-419!2scr" width="500" height="410" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <table class="contact-table">
+                <tr>
+                    <td><img src="/static/images/logo cultura.avif" alt="Pet Paradise Logo"></td>
+                    <td>Facebook <br> @culturacr</td>
+                    <td>Instagram <br> @culturacr</td>
+                    <td>WhatsApp <br> 123456789</td>
+                    <td>Correo Electrónico <br>culturacr1@gmail.com</td>
+                    <td>Teléfono <br> 123-456-7890</td>
+                </tr>
+            </table>
+        </div>
+        <p>&copy; 2024 Cultura. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
